@@ -45,7 +45,7 @@ function ChangeTheme( themeName, ambientVolume = 1 ) {
 				duration: 3000,
 				complete: function() {
 					var video = $('#bgVideo');
-					var videoPath = "video/"+themeName+".mp4";
+					var videoPath = "https://github.com/DJYar/stlk-monologue/blob/master/video/"+themeName+".mp4?raw=true";
 					$("#bgVideoSrc").attr("src", videoPath);
 					video[0].pause();
 					video[0].load();
