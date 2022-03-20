@@ -1,0 +1,59 @@
+.slider {
+  width: 100px;
+}
+
+.slider > .dragger {
+  background: url('../img/knob_s.png');
+  /*
+  background: #e6a01fAA;
+  background: -webkit-linear-gradient(top, #e6a01fCC, #e39b1aCC);
+  background: -moz-linear-gradient(top, #e6a01fCC, #e39b1aCC);
+  background: linear-gradient(top, #e6a01fCC, #e39b1aCC);
+  
+  -webkit-box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  border: 1px solid #496805AA;
+  */
+  width: 24px;
+  height: 15px;
+}
+
+.slider > .dragger:hover {
+  /*background: -webkit-linear-gradient(top, #e6a01fFF, #e6a01fFF);*/
+  background: url('../img/knob_h.png');
+}
+
+
+.slider > .track, .slider > .highlight-track {
+  background: #ccc;
+  background: -webkit-linear-gradient(top, #bbbbbb77, #dddddd77);
+  background: -moz-linear-gradient(top, #bbbbbb77, #dddddd77);
+  background: linear-gradient(top, #bbbbbb77, #dddddd77);
+
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  border: 1px solid #4e4e4e;
+  height: 2px;
+}
+
+.slider > .highlight-track {
+	background-color: #e6a01fAA;
+	background: -webkit-linear-gradient(top, #e6a01fAA, #e39b1aAA);
+	background: -moz-linear-gradient(top, #e6a01fAA, #e39b1aAA);
+	background: linear-gradient(top, #e6a01fAA, #e39b1aAA);
+	
+	border-color: #496805AA;
+}
+
