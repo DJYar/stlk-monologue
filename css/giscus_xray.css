@@ -1,0 +1,119 @@
+/*!
+ * Modified from GitHub's Dark Dimmed theme, licensed under the MIT License
+ * Copyright (c) 2018 GitHub Inc.
+ * https://github.com/primer/primitives/blob/main/LICENSE
+ */
+
+main {
+    --color-prettylights-syntax-comment: #768390;
+    --color-prettylights-syntax-constant: #6cb6ff;
+    --color-prettylights-syntax-entity: #dcbdfb;
+    --color-prettylights-syntax-storage-modifier-import: #adbac7;
+    --color-prettylights-syntax-entity-tag: #8ddb8c;
+    --color-prettylights-syntax-keyword: #f47067;
+    --color-prettylights-syntax-string: #96d0ff;
+    --color-prettylights-syntax-variable: #f69d50;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #e5534b;
+    --color-prettylights-syntax-invalid-illegal-text: #cdd9e5;
+    --color-prettylights-syntax-invalid-illegal-bg: #922323;
+    --color-prettylights-syntax-carriage-return-text: #cdd9e5;
+    --color-prettylights-syntax-carriage-return-bg: #ad2e2c;
+    --color-prettylights-syntax-string-regexp: #8ddb8c;
+    --color-prettylights-syntax-markup-list: #eac55f;
+    --color-prettylights-syntax-markup-heading: #316dca;
+    --color-prettylights-syntax-markup-italic: #adbac7;
+    --color-prettylights-syntax-markup-bold: #adbac7;
+    --color-prettylights-syntax-markup-deleted-text: #ffd8d3;
+    --color-prettylights-syntax-markup-deleted-bg: #78191b;
+    --color-prettylights-syntax-markup-inserted-text: #b4f1b4;
+    --color-prettylights-syntax-markup-inserted-bg: #1b4721;
+    --color-prettylights-syntax-markup-changed-text: #ffddb0;
+    --color-prettylights-syntax-markup-changed-bg: #682d0f;
+    --color-prettylights-syntax-markup-ignored-text: #adbac7;
+    --color-prettylights-syntax-markup-ignored-bg: #255ab2;
+    --color-prettylights-syntax-meta-diff-range: #dcbdfb;
+    --color-prettylights-syntax-brackethighlighter-angle: #768390;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #545d68;
+    --color-prettylights-syntax-constant-other-reference-link: #96d0ff;
+    --color-btn-text: #ff9900;
+    --color-btn-bg: #3f3728;
+    --color-btn-border: rgb(229 222 205 / 10%);
+    --color-btn-shadow: 0 0 transparent;
+    --color-btn-inset-shadow: 0 0 transparent;
+    --color-btn-hover-bg: #66583e;
+    --color-btn-hover-border: #ff8100;
+    --color-btn-active-bg: #725e38;
+    --color-btn-active-border: #ff8100;
+    --color-btn-selected-bg: #5a3d1e;
+    --color-btn-primary-text: #ff7600;
+    --color-btn-primary-bg: #663c11;
+    --color-btn-primary-border: rgb(187 153 78 / 10%);
+    --color-btn-primary-shadow: 0 0 transparent;
+    --color-btn-primary-inset-shadow: 0 0 transparent;
+    --color-btn-primary-hover-bg: #665631;
+    --color-btn-primary-hover-border: rgb(36 32 27);
+    --color-btn-primary-selected-bg: #89713b;
+    --color-btn-primary-selected-shadow: 0 0 transparent;
+    --color-btn-primary-disabled-text: rgb(229 222 205 / 50%);
+    --color-btn-primary-disabled-bg: rgb(124 116 100 / 60%);
+    --color-btn-primary-disabled-border: rgba(205,217,229,.1);
+    --color-fg-default: #c4b8aa;
+    --color-fg-muted: #c4b8aa42;
+    --color-fg-subtle: #c4b8aa42;
+    --color-canvas-default: #2e2c228c;
+    --color-canvas-overlay: #7a5b23;
+    --color-canvas-inset: #463f2338;
+    --color-canvas-subtle: #b51e1e0d;
+    --color-border-default: #f9980826;
+    --color-border-muted: #edd3ac26;
+    --color-neutral-muted: rgba(99,110,123,.4);
+    --color-accent-fg: #f5c353;
+    --color-accent-emphasis: #cab031;
+    --color-accent-muted: rgb(228 185 65 / 40%);
+    --color-accent-subtle: rgb(228 185 65 / 15%);
+    --color-success-fg: #57ab5a;
+    --color-danger-fg: #e5534b;
+    --color-primer-shadow-inset: 0 0 transparent;
+    --color-primer-shadow-focus: 0 0 0 3px #795514;
+    --color-scale-gray-7: #473e37;
+    --color-scale-blue-8: #794714;
+    --color-social-reaction-bg-hover: var(--color-scale-gray-7);
+    --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
+    color-scheme: dark;
+}
+
+main .pagination-loader-container {
+	background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg)
+}
+
+
+/*! Custom CSS */
+
+.gsc-reactions-count {
+	display: none
+}
+
+.gsc-timeline {
+	flex-direction: column-reverse
+}
+
+.gsc-header {
+	padding-bottom: 1rem
+}
+
+.gsc-comments>.gsc-header {
+	order: 1
+}
+
+.gsc-comments>.gsc-comment-box {
+	margin-bottom: 1rem;
+	order: 2
+}
+
+.gsc-comments>.gsc-timeline {
+	order: 3
+}
+
+.gsc-homepage-bg {
+	background-color: #15202b
+}
